@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/niuma-harness-widget',
+  id: 'dsh-niuma-harness-widget',
   factory(require) {
     const React = require('react');
     const h = React.createElement;

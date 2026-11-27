@@ -1,4 +1,4 @@
 - insert:
     - id: niuma-harness-widget
-      name: '@local/niuma-harness-widget'
+      name: 'dsh-niuma-harness-widget'
       config: {}

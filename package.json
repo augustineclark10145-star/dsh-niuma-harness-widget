@@ -1,14 +1,33 @@
 {
-  "name": "@local/niuma-harness-widget",
+  "name": "dsh-niuma-harness-widget",
   "version": "1.0.0",
-  "private": true,
+  "description": "A DSH sidebar widget: live earnings, countdown and goal progress, with the amount hideable.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "widget",
+    "salary",
+    "countdown"
+  ],
+  "homepage": "https://github.com/augustineclark10145-star/dsh-niuma-harness-widget#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustineclark10145-star/dsh-niuma-harness-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/augustineclark10145-star/dsh-niuma-harness-widget/issues"
+  },
   "type": "module",
-  "description": "牛马鼓励器 Harness 侧栏小组件：实时工资、倒计时与目标进度，金额可隐藏。",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.png"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "files": [
     "index.js",
@@ -16,7 +35,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.png",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
